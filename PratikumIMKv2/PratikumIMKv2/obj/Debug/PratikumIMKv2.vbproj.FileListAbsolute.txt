@@ -1,0 +1,14 @@
+D:\MyASUS\Projects\PratikumIMKv2\PratikumIMKv2\bin\Debug\PratikumIMKv2.exe.config
+D:\MyASUS\Projects\PratikumIMKv2\PratikumIMKv2\bin\Debug\PratikumIMKv2.exe
+D:\MyASUS\Projects\PratikumIMKv2\PratikumIMKv2\bin\Debug\PratikumIMKv2.pdb
+D:\MyASUS\Projects\PratikumIMKv2\PratikumIMKv2\bin\Debug\PratikumIMKv2.xml
+D:\MyASUS\Projects\PratikumIMKv2\PratikumIMKv2\obj\Debug\PratikumIMKv2.IMK.resources
+D:\MyASUS\Projects\PratikumIMKv2\PratikumIMKv2\obj\Debug\PratikumIMKv2.Resources.resources
+D:\MyASUS\Projects\PratikumIMKv2\PratikumIMKv2\obj\Debug\PratikumIMKv2.vbproj.GenerateResource.Cache
+D:\MyASUS\Projects\PratikumIMKv2\PratikumIMKv2\obj\Debug\PratikumIMKv2.exe
+D:\MyASUS\Projects\PratikumIMKv2\PratikumIMKv2\obj\Debug\PratikumIMKv2.xml
+D:\MyASUS\Projects\PratikumIMKv2\PratikumIMKv2\obj\Debug\PratikumIMKv2.pdb
+D:\MyASUS\Projects\PratikumIMKv2\PratikumIMKv2\obj\Debug\PratikumIMKv2.IMKModul1.resources
+D:\MyASUS\Projects\PratikumIMKv2\PratikumIMKv2\obj\Debug\PratikumIMKv2.IMKModul4.resources
+D:\MyASUS\Projects\PratikumIMKv2\PratikumIMKv2\obj\Debug\PratikumIMKv2.IMKModul5.resources
+D:\MyASUS\Projects\PratikumIMKv2\PratikumIMKv2\obj\Debug\PratikumIMKv2.IMKModul6.resources

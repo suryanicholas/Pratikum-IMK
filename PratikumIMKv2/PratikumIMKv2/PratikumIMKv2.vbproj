@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD1E888A-13A2-4555-A7BA-B7E066CA9B12}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PratikumIMKv2.My.MyApplication</StartupObject>
+    <RootNamespace>PratikumIMKv2</RootNamespace>
+    <AssemblyName>PratikumIMKv2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PratikumIMKv2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PratikumIMKv2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IMK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IMK.Designer.vb">
+      <DependentUpon>IMK.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IMKModul1.Designer.vb">
+      <DependentUpon>IMKModul1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IMKModul1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IMKModul4.Designer.vb">
+      <DependentUpon>IMKModul4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IMKModul4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IMKModul5.Designer.vb">
+      <DependentUpon>IMKModul5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IMKModul5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IMKModul6.Designer.vb">
+      <DependentUpon>IMKModul6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IMKModul6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IMK.resx">
+      <DependentUpon>IMK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IMKModul1.resx">
+      <DependentUpon>IMKModul1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IMKModul4.resx">
+      <DependentUpon>IMKModul4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IMKModul5.resx">
+      <DependentUpon>IMKModul5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IMKModul6.resx">
+      <DependentUpon>IMKModul6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CirclesBlack1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CirclesOrange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CirclesPurple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CirclesWhite1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CirclesRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CirclesYellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CirclesCyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CirclesGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CirclesBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BMenu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarsGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\objRStart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\objGStart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\objGStop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\objRStop.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
